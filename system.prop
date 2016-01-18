@@ -1,0 +1,12 @@
+# system.prop for jflte
+#
+# cannot take spaces
+rild.libargs=-d /dev/smd0
+ 
+ro.build.selinux=0 
+ro.adb.secure=0 
+ro.secure=0 
+ro.debuggable=1
+persist.service.adb.enable=1
+persist.sys.recovery_update=false
+persist.sys.root_access=1
